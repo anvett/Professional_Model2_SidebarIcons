@@ -1,0 +1,39 @@
+@import "../../styles/variables.scss";
+
+.personalInfo {
+  text-align: center;
+  padding: 1rem;
+}
+
+.name {
+  font-family: $font-primary;
+  font-size: 2.5rem;
+  color: $primary-color;
+  text-align: center;
+  margin-bottom: $spacing-4;
+  @media (max-width: 768px) {
+    font-size: 2rem;
+  }
+}
+
+.title {
+  font-family: $font-secondary;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  color: $primary-color;
+
+  @media (max-width: 768px) {
+    font-size: 1.5rem;
+  }
+}
+
+.description {
+  font-size: 1.5rem;
+  color: $secondary-color;
+  font-family: $font-secondary;
+
+  @media (max-width: $breakpoint-sm) {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+}
